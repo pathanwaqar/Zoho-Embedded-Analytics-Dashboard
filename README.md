@@ -132,7 +132,7 @@ embedded-analytics-dashboard/
 - [ ] Support scheduled PDF/email exports of dashboards per tenant
 - [ ] Add incremental sync (delta only) instead of full nightly push
 
----
+----
 
 ## Author
 
