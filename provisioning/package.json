@@ -1,0 +1,8 @@
+{
+  "name": "analytics-provisioning",
+  "version": "1.0.0",
+  "scripts": {
+    "create-query-table": "node createQueryTable.js",
+    "provision-tenant": "node provisionTenant.js"
+  }
+}

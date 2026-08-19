@@ -1,0 +1,25 @@
+{
+  "client": {
+    "stack": [
+      {
+        "code_language": "reactjs",
+        "source": "portal",
+        "build_directory": "dist"
+      }
+    ]
+  },
+  "functions": [
+    {
+      "name": "sync_service",
+      "source": "sync-service",
+      "type": "scheduler",
+      "stack": "node18"
+    },
+    {
+      "name": "embed_service",
+      "source": "embed-service",
+      "type": "advancedio",
+      "stack": "node18"
+    }
+  ]
+}
